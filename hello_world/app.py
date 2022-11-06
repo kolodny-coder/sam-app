@@ -33,13 +33,13 @@ def lambda_handler(event, context):
 
     #     raise e
     headers = {"Content-Type": "Application/json"}
-    print('add it to the logging !!')
+    print('add it to see logs ... !!')
 
     return {
         "headers": headers,
         "statusCode": 200,
         "body": json.dumps({
-            "message": "Try Ci/CD",
+            "message": "Hello World, Sunday ?",
             # "location": ip.text.replace("\n", "")
         }),
     }
