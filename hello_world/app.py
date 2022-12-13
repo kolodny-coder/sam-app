@@ -4,7 +4,7 @@ import json
 def lambda_handler(event, context):
 
     headers = {"Content-Type": "Application/json"}
-    print('add it to see logs change now ... !!')
+    print('add it to see logs change  plesase ... !!')
 
     return {
         "headers": headers,
